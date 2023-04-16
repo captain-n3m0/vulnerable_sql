@@ -10,7 +10,7 @@ This type of SQL statement is vulnerable to SQL injection if the input values fo
 ``` sql
 "SELECT * FROM users WHERE username = '" + username + "'";
 ```
-his type of SQL statement is vulnerable to SQL injection if the input value for 'username' is not properly sanitized or validated before being used in the query. An attacker can manipulate the username input to inject malicious SQL code and potentially gain unauthorized access to the database.
+This type of SQL statement is vulnerable to SQL injection if the input value for 'username' is not properly sanitized or validated before being used in the query. An attacker can manipulate the username input to inject malicious SQL code and potentially gain unauthorized access to the database.
 
 ### Vulnerable SQL statement using outdated and vulnerable functions:
 
